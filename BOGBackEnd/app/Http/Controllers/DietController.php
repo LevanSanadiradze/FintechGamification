@@ -6,5 +6,8 @@ use Illuminate\Http\Request;
 
 class DietController extends Controller
 {
-    //
+    public function getMyDietData()
+    {
+        echo 'here';
+    }
 }

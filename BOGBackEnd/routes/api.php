@@ -17,4 +17,4 @@ use Illuminate\Http\Request;
 //     return $request->user();
 // });
 
-
+Route::get('/MyDiet', 'DietController@getMyDietData');
