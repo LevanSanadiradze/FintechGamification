@@ -8,6 +8,13 @@ class DietController extends Controller
 {
     public function getMyDietData()
     {
-        echo 'here';
+        $MyDietData = Diet_GetListOfMonths()[0];
+        return $MyDietData;
+    }
+
+    public function getHistory()
+    {
+        $History = Diet_GetListOfMonths();
+        return $History;
     }
 }

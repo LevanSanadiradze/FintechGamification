@@ -18,3 +18,4 @@ use Illuminate\Http\Request;
 // });
 
 Route::get('/MyDiet', 'DietController@getMyDietData');
+Route::get('/History', 'DietController@getHistory');
