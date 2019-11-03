@@ -52,7 +52,9 @@ const styles = StyleSheet.create({
   },
   background: {
     position: "absolute",
-    resizeMode: "cover"
+    resizeMode: "cover",
+    width: screenWidth,
+    height: screenHeight
   },
   authBtn: {
     width: 150,
@@ -62,8 +64,9 @@ const styles = StyleSheet.create({
     marginTop: 30,
     justifyContent: "center",
     alignItems: "center",
+    color: "white",
   },
   authBtnText: {
-    color: "#fff",
+    color: "white",
   }
 });

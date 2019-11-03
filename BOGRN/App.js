@@ -9,6 +9,12 @@ import MainPage from './components/js/MainPage';
 const MainNavigator = createStackNavigator({
   Auth: {screen: AuthPage},
   Home: {screen: MainPage},
+},
+{
+  headerMode: "none",
+  navigationOptions: {
+    headerVisible: false,
+  }
 });
 
 const App = createAppContainer(MainNavigator);
