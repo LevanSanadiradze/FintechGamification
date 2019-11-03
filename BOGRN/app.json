@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Finet",
-    "slug": "BOGFrontEnd",
+    "name": "FinHealth",
+    "slug": "BOGRN",
     "privacy": "public",
     "sdkVersion": "35.0.0",
     "platforms": [
